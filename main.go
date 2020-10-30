@@ -10,19 +10,19 @@ func main() {
         fmt.Println(names[i])
     }
 
-    fmt.Println("------")
+    fmt.Println("-------")
     // single value range
     for i := range names {
         fmt.Println(i)
     }
 
-    fmt.Println("------")
+    fmt.Println("-------")
     // double value range
     for i, name := range names {
         fmt.Println(i, name)
     }
 
-    fmt.Println("------")
+    fmt.Println("-------")
     // double value range, ignore index using "_"
     for _, name := range names {
         fmt.Println(name)
